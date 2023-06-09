@@ -36,16 +36,28 @@
   font-size: 50px;
   color: white;
 }
-@media (max-width: 790px) {
-  .reviewscards {
-    width: 900px;
+
+@media (max-width: 1340px) {
+  .reviews_main {
+    width: 800px;
   }
 }
-@media (max-width: 730px) {
-  .reviewscards {
-    width: 900px;
-  }
+@media (max-width: 760px) {
   .reviews_main {
     padding: 20px;
+    width: 500px;
+  }
+  .reviewscards {
+    gap: 30px;
+    align-items: flex-start;
+    padding: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .reviews_main {
+    width: 300px;
+  }
+  .reviewscards {
+    padding: 50px;
   }
 }

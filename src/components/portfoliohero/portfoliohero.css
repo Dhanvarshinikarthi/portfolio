@@ -58,3 +58,88 @@
   position: relative;
   z-index: -1;
 }
+@media (max-width: 830px) {
+  .build_projects {
+    padding: 150px 150px;
+  }
+}
+@media (max-width: 720px) {
+  .build_projects {
+    padding: 150px 110px;
+  }
+}
+@media (max-width: 682px) {
+  .career_objective h2 {
+    font-size: 25px;
+  }
+  .portfoliohero_main h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 620px) {
+  .portfoliohero_main h2 {
+    font-size: 23px;
+  }
+  .portfoliohero_main {
+    padding: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .career_objective h2 {
+    font-size: 23px;
+  }
+  .portfoliohero_main h2 {
+    font-size: 23px;
+  }
+  .portfoliohero_main {
+    padding: 150px;
+  }
+}
+@media (max-width: 577px) {
+  .career_objective h2 {
+    font-size: 22px;
+  }
+  .portfoliohero_main h2 {
+    font-size: 25px;
+  }
+  .build_projects {
+    padding: 180px 100px;
+  }
+  .portfoliohero_main {
+    padding: 150px;
+  }
+}
+@media (max-width: 524px) {
+  .portfoliohero_main h2 {
+    font-size: 19px;
+  }
+  .portfoliohero_main {
+    padding: 100px;
+    height: 500px;
+  }
+  .career_objective {
+    padding: 100px;
+    height: 500px;
+  }
+  .build_projects {
+    padding: 100px;
+    height: 500px;
+  }
+}
+@media (max-width: 480px) {
+  .portfoliohero_main h2 {
+    font-size: 20px;
+  }
+  .portfoliohero_main {
+    padding: 100px;
+    height: 500px;
+  }
+  .career_objective {
+    padding: 100px;
+    height: 500px;
+  }
+  .build_projects {
+    padding: 50px;
+    height: 500px;
+  }
+}

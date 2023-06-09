@@ -46,3 +46,8 @@
 .skills_main {
   background-image: linear-gradient(white, rgb(136, 136, 241));
 }
+@media (max-width: 640px) {
+  .container1 {
+    width: 400px;
+  }
+}

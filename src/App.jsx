@@ -10,8 +10,10 @@ import Overview from "./pages/overview";
 import Certify from "./pages/certifications";
 import Portfoliopages from "./pages/portfoliopage";
 import MediaLanderProjects from "./pages/medialander";
-import Newsfeedprojects from "./pages/newsfeedprofile";
-import Socialmediaprojects from "./pages/socialmediacards";
+import Newsfeedprojects from "./pages/portfolio";
+import Socialmediaprojects from "./pages/socialnetwork";
+import Portfolioprojects from "./pages/portfolio";
+import Socialnetwork from "./pages/socialnetwork";
 
 function App() {
   return (
@@ -22,8 +24,8 @@ function App() {
         <Route path="/certification" element={<Certify />} />
         <Route path="/portfolio" element={<Portfoliopages />} />
         <Route path="/medialander" element={<MediaLanderProjects />} />
-        <Route path="/newsfeedprofile" element={<Newsfeedprojects />} />
-        <Route path="/socialmedia" element={<Socialmediaprojects />} />
+        <Route path="/portfolioprofile" element={<Portfolioprojects />} />
+        <Route path="/socialmedia" element={<Socialnetwork />} />
       </Routes>
       <Footer />
     </>

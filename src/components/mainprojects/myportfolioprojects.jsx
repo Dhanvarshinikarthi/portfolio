@@ -31,7 +31,7 @@ const MainProjects = () => {
                 <span>P</span>ortfolio
               </h5>
             </div>
-            <Link to="/newsfeedprofile" id="view">
+            <Link to="/portfolioprofile" id="view">
               <b>View Page</b>
             </Link>
           </div>

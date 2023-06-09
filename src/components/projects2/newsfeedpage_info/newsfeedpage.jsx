@@ -2,7 +2,7 @@ import React from "react";
 import "./newsfeedpage.css";
 import portfolio1 from "../../../assets/images/newsfeed1.jpg";
 import portfolio from "../../../assets/images/portfoliotemplate.jpg";
-const Newsfeedpage = () => {
+const Portfolioprojectpage = () => {
   return (
     <div className="newsfeedpage_main">
       <h1>PORTFOLIO</h1>
@@ -31,4 +31,4 @@ const Newsfeedpage = () => {
     </div>
   );
 };
-export default Newsfeedpage;
+export default Portfolioprojectpage;

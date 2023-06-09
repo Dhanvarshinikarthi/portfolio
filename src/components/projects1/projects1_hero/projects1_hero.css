@@ -4,3 +4,8 @@
   height: 630px;
   opacity: 0.75;
 }
+@media (max-width: 600px) {
+  .medialanderhero_main {
+    height: 500px;
+  }
+}

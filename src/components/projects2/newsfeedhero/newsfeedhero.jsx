@@ -1,6 +1,6 @@
 import React from "react";
 import "./newsfeedhero.css";
-const Newsfeedhero = () => {
+const Portfolioprojectshero = () => {
   return <div className="newsfeedhero_main"></div>;
 };
-export default Newsfeedhero;
+export default Portfolioprojectshero;

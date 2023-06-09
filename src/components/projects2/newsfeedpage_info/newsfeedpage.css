@@ -46,3 +46,26 @@
 .newsfeedpage_main > button:active {
   color: black;
 }
+@media (max-width: 910px) {
+  .newsimg img {
+    width: 200px;
+  }
+}
+@media (max-width: 665px) {
+  .newsimg img {
+    width: 200px;
+  }
+  .about_newsfeed {
+    width: 90%;
+  }
+}
+@media (max-width: 610px) {
+  .about_newsfeed {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .about_newsfeed {
+    width: 120%;
+  }
+}

@@ -46,3 +46,49 @@
 .mediainfo_main > button:active {
   color: black;
 }
+@media (max-width: 933px) {
+  .about_media {
+    width: 90%;
+  }
+}
+
+@media (max-width: 930px) {
+  .mediaimg img {
+    width: 300px;
+  }
+  .about_media {
+    width: 100%;
+  }
+}
+@media (max-width: 910px) {
+  .mediaimg img {
+    width: 200px;
+  }
+}
+@media (max-width: 820px) {
+  .mediaimg img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 754px) {
+  .mediaimg img {
+    width: 300px;
+  }
+  .about_media {
+    width: 120%;
+  }
+}
+@media (max-width: 670px) {
+  .mediaimg img {
+    width: 200px;
+  }
+}
+@media (max-width: 480px) {
+  .mediaimg img {
+    width: 100px;
+  }
+  .mediainfo_main h1 {
+    font-size: 30px;
+  }
+}

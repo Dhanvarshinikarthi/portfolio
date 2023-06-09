@@ -1,7 +1,7 @@
 import React from "react";
 import Mediahero from "../components/projects3/mediahero/mediahero";
 import Mediainfo from "../components/projects3/mediainfo/mediainfo";
-const Socialmediaprojects = () => {
+const Socialnetwork = () => {
   return (
     <>
       <Mediahero />
@@ -9,4 +9,4 @@ const Socialmediaprojects = () => {
     </>
   );
 };
-export default Socialmediaprojects;
+export default Socialnetwork;

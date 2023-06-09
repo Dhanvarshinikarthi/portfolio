@@ -46,3 +46,47 @@
 .medialander_main > button:active {
   color: black;
 }
+@media (max-width: 1424px) {
+  .landingimage img {
+    width: 300px;
+  }
+}
+@media (max-width: 925px) {
+  .landingimage img {
+    width: 200px;
+  }
+}
+@media (max-width: 660px) {
+  .about_medialander > p {
+    font-size: 15px;
+  }
+  .about_medialander {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .about_medialander > p {
+    font-size: 15px;
+  }
+  .about_medialander {
+    width: 100%;
+  }
+}
+@media (max-width: 545px) {
+  .about_medialander > p {
+    font-size: 14px;
+  }
+  .about_medialander {
+    width: 120%;
+  }
+}
+@media (max-width: 495px) {
+  .medialander_main > h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .about_medialander {
+    padding: 20px;
+  }
+}
