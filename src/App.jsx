@@ -10,8 +10,8 @@ import Overview from "./pages/overview";
 import Certify from "./pages/certifications";
 import Portfoliopages from "./pages/portfoliopage";
 import MediaLanderProjects from "./pages/medialander";
-import Newsfeedprojects from "./pages/portfolio";
-import Socialmediaprojects from "./pages/socialnetwork";
+// import Newsfeedprojects from "./pages/portfolio";
+// import Socialmediaprojects from "./pages/socialnetwork";
 import Portfolioprojects from "./pages/portfolio";
 import Socialnetwork from "./pages/socialnetwork";
 

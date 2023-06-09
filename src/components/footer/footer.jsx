@@ -89,7 +89,7 @@ const Footer = () => {
             </p>
             <p>
               <i className="arrow right"></i>
-              <Link to="/newsfeedprofile"> Newsfeed Profile</Link>
+              <Link to="/portfolioprofile"> Newsfeed Profile</Link>
             </p>
             <p>
               <i className="arrow right"></i>
