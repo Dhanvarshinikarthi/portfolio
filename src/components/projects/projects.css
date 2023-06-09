@@ -1,0 +1,116 @@
+.projects {
+  background-image: linear-gradient(rgb(1, 1, 65), rgb(74, 74, 239));
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.projects_name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.projects_name > h1 {
+  color: rgb(248, 65, 65);
+  font-size: 60px;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Courier New", Courier, monospace;
+}
+.projects_name button {
+  font-size: 30px;
+  border: none;
+  color: white;
+  background-image: linear-gradient(skyblue, blue);
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.projects_name button:hover {
+  color: red;
+}
+.projects_name b {
+  color: red;
+}
+.medialander,
+.socialcards,
+.newsfeed {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 30px;
+  background-color: rgb(205, 238, 251);
+  border-radius: 20px 90px 90px;
+}
+.projects_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 50px;
+}
+.projects_description h1 {
+  font-size: 40px;
+  text-shadow: 1px 1px 1px black;
+  font-family: "statisy", serif;
+  color: blue;
+}
+.projects img {
+  width: 200px;
+  border-radius: 50%;
+}
+#add {
+  width: 30px;
+}
+#media {
+  border-radius: 50%;
+}
+.projects_description p {
+  font-size: 22px;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1.4;
+  color: BLUE;
+}
+/* .projects_description > div:hover {
+  background-color: rgb(137, 137, 241);
+} */
+/* .projects_description p:hover {
+  color: white;
+} */
+.projects_description h1:hover {
+  color: black;
+}
+@media (max-width: 1319px) {
+  .projects_name {
+    flex-wrap: wrap;
+  }
+  .projects_description {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 607px) {
+  .projects_description {
+    padding: 60px;
+  }
+}
+@media (max-width: 567px) {
+  .projects_description {
+    padding: 70px;
+  }
+}
+@media (max-width: 533px) {
+  .projects_description {
+    padding: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .projects_name {
+    flex-wrap: wrap;
+  }
+  .projects_description {
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+}

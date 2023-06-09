@@ -1,0 +1,100 @@
+.overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(25, 25, 76);
+  z-index: 1;
+}
+.overview h1 {
+  color: white;
+  font-size: 40px;
+}
+.overview > button {
+  padding: 0 20px;
+  font-size: 25px;
+  background-color: rgb(66, 66, 139);
+  color: white;
+  border: none;
+}
+
+.overview > button:active {
+  color: red;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+}
+span {
+  color: rgb(254, 44, 44);
+}
+nav > a {
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+#home {
+  color: rgb(255, 8, 8);
+}
+nav > a:hover {
+  color: rgb(255, 8, 8);
+}
+.hamimage {
+  display: none;
+}
+.sidebar {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  background-image: linear-gradient(navy, white);
+  padding: 20px;
+  width: 100vw;
+  height: auto;
+}
+.sidebar_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.sidebar_content a {
+  font-size: 25px;
+}
+@media (max-width: 970px) {
+  .hamimage {
+    display: block;
+    cursor: pointer;
+  }
+  .sidebar {
+    display: block;
+    cursor: pointer;
+  }
+  nav {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .overview nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (min-width: 480px) {
+  .overview {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .overview {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

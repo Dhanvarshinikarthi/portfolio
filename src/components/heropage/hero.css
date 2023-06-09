@@ -1,0 +1,149 @@
+.hero_main {
+  background-image: url(../../assets/images/portfolioimage.jpg);
+  background-size: 100% 100%;
+  height: 730px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.myself {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 100px;
+}
+.myself p {
+  font-size: 64px;
+  color: white;
+  font-style: italic;
+  font-family: "satisfy", serif;
+  text-shadow: 2px 2px 3px blue;
+}
+#description {
+  font-size: 35px;
+  padding: 0 80px;
+  color: white;
+}
+.aboutme_hero {
+  background-image: url(../../assets/images/aboutmeimage.png);
+  background-size: 100% 100%;
+  height: 730px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 60px;
+  padding: 180px;
+}
+.aboutme_hero h1,
+.aboutme_hero h2 {
+  text-align: center;
+}
+.aboutme_hero h2 {
+  color: white;
+  font-size: 30px;
+}
+.aboutme_hero h1 {
+  color: red;
+  font-size: 50px;
+}
+
+@media (min-width: 480px) {
+  .myself em {
+    font-size: 40px;
+  }
+  #description {
+    font-size: 30px;
+    padding: 50px 50px;
+  }
+}
+@media (min-width: 1420px) {
+  .myself em {
+    font-size: 50px;
+  }
+  #description {
+    font-size: 40px;
+    padding: 50px 50px;
+  }
+}
+@media (max-width: 720px) {
+  .hero_main {
+    height: 500px;
+  }
+  .aboutme_hero {
+    height: 500px;
+    padding: 140px;
+  }
+  .aboutme_hero h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 683px) {
+  .aboutme_hero h2 {
+    font-size: 18px;
+  }
+  .aboutme_hero h1 {
+    font-size: 25px;
+  }
+  .aboutme_hero {
+    gap: 13px;
+    padding: 120px;
+  }
+}
+@media (max-width: 622px) {
+  .aboutme_hero h2 {
+    font-size: 15px;
+  }
+  .aboutme_hero h1 {
+    font-size: 23px;
+  }
+  .aboutme_hero {
+    gap: 12px;
+    padding: 100px;
+  }
+}
+@media (max-width: 544px) {
+  .aboutme_hero h2 {
+    font-size: 13px;
+  }
+  .aboutme_hero h1 {
+    font-size: 22px;
+  }
+  .aboutme_hero {
+    gap: 11px;
+    padding: 80px;
+  }
+}
+@media (max-width: 515px) {
+  .aboutme_hero h2 {
+    font-size: 13px;
+  }
+  .aboutme_hero h1 {
+    font-size: 20px;
+  }
+  .aboutme_hero {
+    gap: 10px;
+    padding: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .hero_main {
+    height: 300px;
+  }
+  #description {
+    font-size: 25px;
+    padding: 50px 50px;
+  }
+  .myself em {
+    font-size: 30px;
+  }
+  .aboutme_hero h2 {
+    font-size: 20px;
+  }
+  .aboutme_hero h1 {
+    font-size: 18px;
+  }
+  .aboutme_hero {
+    gap: 5px;
+    height: 300px;
+    padding: 40px;
+  }
+}
