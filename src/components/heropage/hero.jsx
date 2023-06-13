@@ -8,10 +8,9 @@ const Hero = () => {
     dots: true,
     Infinity: true,
     autoplay: true,
-    autoplayspeed: 10000,
-    speed: 4000,
-    // slideToshow: 2,
-    // slideToscroll: 0,
+    autoplayspeed: 2000,
+    slideToshow: 1,
+    slideToscroll: 1,
   };
   return (
     <Slider {...settings}>
