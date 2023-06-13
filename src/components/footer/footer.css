@@ -171,4 +171,7 @@ a {
     flex-wrap: wrap;
     gap: 20px;
   }
+  .footer_main {
+    height: 550px;
+  }
 }
